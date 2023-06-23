@@ -50,3 +50,10 @@ git stash pop
 git stash drop
 // Eliminar ramas
 git branch -d {branchName}
+
+
+
+
+
+// Referencias
+https://training.github.com/downloads/es_ES/github-git-cheat-sheet/
