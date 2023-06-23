@@ -26,4 +26,11 @@ git diff
 git reset
 // "Borra" los puntos guardados con commit hasta un punto en específico hacia adelante o atras
 git reset --hard
-
+// Agrega una etiqueta a cierto commit
+git tag {tagName}
+// Muestra los tags en el proyecto
+git tag
+// Moverse entre commits a través de tags
+git checkout tags/{tagName} 
+// Borra Commits específicos
+git revert
