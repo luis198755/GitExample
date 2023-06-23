@@ -40,3 +40,11 @@ git branch
 git switch {branchName} 
 // Combina los cambios de una rama hacia otra
 git merge {brachName}
+// Guarda un punto para un código incompleto temporalmente
+git stash 
+// Lista los commits temporales incompletos
+git stash list
+// Muestra los cambios incompletos
+git stash pop
+// Elimina los stash activos
+git stash drop
