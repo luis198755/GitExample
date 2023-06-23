@@ -1,18 +1,29 @@
-//Inicializa el directorio de trabajo
+// Inicializa el directorio de trabajo
 git init
-//Muestra los cambios en el directorio de trabajo
+// Muestra los cambios en el directorio de trabajo
 git status
-//Agrega todos los archivos a la zono de stage
+// Agrega todos los archivos a la zono de stage
 git add .
-//Guarda los cambios en git
+// Guarda los cambios en git
 git commit -m 'comment'
-//Muestra el historial de cambios
+// Cambio entre ramas y commits
+git checkout rama/commit
+// Muestra el historial de cambios
 git log
-//Muestra el historial de cambios con gráfica 
+// Muestra el historial de cambios con gráfica 
 git log --graph
-//Muestra el historial de cambios en una sola línea
+// Muestra el historial de cambios en una sola línea
 git log --graph --pretty=oneline
-//Muestra el historial de cambios en una sola línea
+// Muestra el historial de cambios en una sola línea
 git log --graph --decorate --all --oneline
-//Creación de Allias
+// Muestra el historial completo
+git reflog
+// Creación de Allias
 git config --global alias.tree "log --graph --decorate --all --oneline"
+// Mustra los cambios entre archivo guardado y modificado
+git diff
+// Descarta los cambios realizados
+git reset
+// "Borra" los puntos guardados con commit hasta un punto en específico hacia adelante o atras
+git reset --hard
+
