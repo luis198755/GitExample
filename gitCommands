@@ -48,3 +48,5 @@ git stash list
 git stash pop
 // Elimina los stash activos
 git stash drop
+// Eliminar ramas
+git branch -d {branchName}
