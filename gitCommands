@@ -12,3 +12,7 @@ git log
 git log --graph
 //Muestra el historial de cambios en una sola línea
 git log --graph --pretty=oneline
+//Muestra el historial de cambios en una sola línea
+git log --graph --decorate --all --oneline
+//Creación de Allias
+git config --global alias.tree "log --graph --decorate --all --oneline"
