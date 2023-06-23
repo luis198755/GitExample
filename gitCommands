@@ -1,0 +1,14 @@
+//Inicializa el directorio de trabajo
+git init
+//Muestra los cambios en el directorio de trabajo
+git status
+//Agrega todos los archivos a la zono de stage
+git add .
+//Guarda los cambios en git
+git commit -m 'comment'
+//Muestra el historial de cambios
+git log
+//Muestra el historial de cambios con gráfica 
+git log --graph
+//Muestra el historial de cambios en una sola línea
+git log --graph --pretty=oneline
