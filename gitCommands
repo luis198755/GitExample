@@ -38,3 +38,5 @@ git revert
 git branch
 // Cambio del Head entre ramas
 git switch {branchName} 
+// Combina los cambios de una rama hacia otra
+git merge {brachName}
