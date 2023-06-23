@@ -24,11 +24,11 @@ turtle.pencolor("white")  # Set the pen color
 
 # Position turtle at the bottom of the screen
 turtle.penup()
-turtle.goto(0, -250)
+turtle.goto(0, 0)
 turtle.pendown()
 
 # Start drawing the fractal tree
-draw_fractal_tree(50, 30, 1.0, 2, 5)  # Adjust the parameters to create different types of fractals
+draw_fractal_tree(100, 30, 0.5, 2, 8)  # Adjust the parameters to create different types of fractals
 
 # Hide turtle
 turtle.hideturtle()
