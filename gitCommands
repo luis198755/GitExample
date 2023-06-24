@@ -1,6 +1,15 @@
 // Configuraciones globales para subir ramas
 git config --global --add push.default current
 git config --global --add push.autoSetupRemote true
+// create a new repository on the command line
+echo "# freelancer_fin" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/luis198755/freelancer_fin.git
+git push -u origin main
+//
 // Inicializa el directorio de trabajo
 git init
 // Muestra los cambios en el directorio de trabajo
