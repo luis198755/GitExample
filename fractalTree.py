@@ -28,7 +28,7 @@ turtle.goto(0, 0)
 turtle.pendown()
 
 # Start drawing the fractal tree
-draw_fractal_tree(100, 30, 0.5, 2, 8)  # Adjust the parameters to create different types of fractals
+draw_fractal_tree(100, 30, 0.5, 3, 6)  # Adjust the parameters to create different types of fractals
 
 # Hide turtle
 turtle.hideturtle()
