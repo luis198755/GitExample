@@ -1,3 +1,6 @@
+// Configuraciones globales para subir ramas
+git config --global --add push.default current
+git config --global --add push.autoSetupRemote true
 // Inicializa el directorio de trabajo
 git init
 // Muestra los cambios en el directorio de trabajo
@@ -50,6 +53,13 @@ git stash pop
 git stash drop
 // Eliminar ramas
 git branch -d {branchName}
+// Descarga historial de los cambios sin los cambios
+git fetch
+// Descarga los cambios y el historial.
+git pull
+// Sube los cambios de la rama activa
+git push
+
 
 
 
