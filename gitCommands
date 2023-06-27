@@ -3,6 +3,8 @@ git config --global --add push.default current
 git config --global --add push.autoSetupRemote true
 // create a new repository on the command line
 echo "# freelancer_fin" >> README.md
+git config --global user.name "Luis Alberto"
+git config --global user.email "luiss_alberto@hotmail.com"
 git init
 git add README.md
 git commit -m "first commit"
