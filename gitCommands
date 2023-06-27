@@ -70,7 +70,9 @@ git fetch
 git pull
 // Sube los cambios de la rama activa
 git push
-
+// Instalación de Git Flow
+sudo apt-get update
+sudo apt-get install git-flow
 // Inicializa git flow 
 git flow init
 // Inicializa la rama feature
