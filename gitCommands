@@ -71,6 +71,12 @@ git pull
 // Sube los cambios de la rama activa
 git push
 
+// Inicializa git flow 
+git flow init
+// Inicializa la rama feature
+git flow feature start branchname
+// Finaliza la rama feature
+git flow feature finish branchname
 
 
 
